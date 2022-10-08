@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@500&family=Beau+Rivage&family=Cairo:wght@200&family=Charm&family=Dancing+Script&family=League+Spartan&family=Permanent+Marker&family=Tajawal:wght@500&display=swap');
+body{
+  background-image: url(img/bg1.jpg);
+    background-repeat: no-repeat;
+    
+    
+    
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    position: fixed !important;
+    width: 100%;
+    z-index: 99;
+    box-shadow: 2px 4px 16px #0c0b0a ;  
+    
+    /*border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;*/
+}
+
+.navbar-brand {
+    width: 65rem;
+    margin-left: 5rem;
+    font-weight: 600 ;
+}
+.nav-link {
+    width: 10rem;
+    border-radius: 20px;
+    text-align: center;
+    transition: ease 0.7s !important;
+    color: rgb(82, 73, 212) !important;
+    font-weight: 600 ;
+    border: 2px solid white;
+}
+.nav-link:hover {
+background-color: rgb(113, 120, 190);
+color: black !important;
+
+}
+.home-section {
+    position: absolute; 
+    top: 10rem;
+    margin-left: 10%;
+    width: 95rem;
+    height: 26rem;
+    animation-name: changec;
+    animation-duration: 5s;
+    border-radius: 15px;
+   
+}
+.h1 {
+    position: absolute;
+    top: 2rem !important;
+    font-weight: bolder;
+    color: rgb(38, 99, 204);
+   
+}
+.p1 {
+    position: absolute;
+    top: 7rem !important;
+    font-family: 'Anybody', cursive;
+font-family: 'Beau Rivage', cursive;
+font-family: 'Cairo', sans-serif;
+font-family: 'Charm', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'League Spartan', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Tajawal', sans-serif;
+font-weight: bolder;
+font-size: 2rem;
+}
+.s1 {
+    color: rgb(64, 64, 214);
+}
+.m1 {
+    position: absolute;
+     top: 1rem;
+    margin-left: 52rem;
+    width: 26rem;
+}
+.social {
+    position: absolute;
+    top: 20rem;
+    
+}
+
+.fa-brands {
+    width: 4rem;
+    transition: 0.7s ease;
+}
+.fa-brands:hover {
+    transform: scale(1.1) !important;
+}
+.social a {
+    color: black;
+   
+    
+}
+
+.social a:hover {
+    
+    color: rgb(132, 109, 243);
+}
+.skills-section {
+position: absolute;
+top: 45rem;
+margin-left: 54rem;
+
+
+}
+.skills-content {
+position: absolute;
+top: 10rem;
+display: grid;
+grid-template-columns: 10px 10px 10px ;
+gap: 1px 400px  ;
+margin-left: -32.5rem;
+
+}
+
+/*.shop-content {
+    position: absolute;
+    top: 55%;
+    display: grid;
+    grid-template-columns: 10px 10px 10px 10px 10px ;
+    gap: 1px 310px ;
+    padding: 200px;
+    margin-left: -2%;
+    
+    
+}*/
+.skills-box {
+    padding: 5rem;
+   padding-left: 2rem;
+   width: 300px !important;
+   height: 20rem;
+   transition: 0.7s ease !important;
+   border-radius: 25px;
+   border: 2px solid rgb(255, 255, 255) ;
+   box-shadow: 4px 8px 8px   rgb(152, 176, 206);
+   background-color: rgb(255, 255, 255);
+   text-align: center;
+   transition: 0.7s ease;
+   
+}
+.skills-box:hover {
+    transform: scale(1.1);
+}
+.skills-title {
+  text-align: center !important;
+  position: absolute;
+   top: 15rem;
+   margin-left: 3.2rem;
+   
+}
+.about-section {
+    position: absolute;
+    top: 85rem;
+    margin-left: 51.9rem;
+}
+
+.m2 {
+    position: absolute;
+    top: 10rem;
+    width: 40rem;
+    margin-left: 12rem;
+}
+.s2 {
+    position: absolute;
+    top: 12rem;
+    margin-left: -42rem;
+}
+.btn-success {
+    position: absolute;
+    top: 28rem;
+    margin-left: -41.5rem;
+    background-image: linear-gradient(to right ,#8b33c5 , #15a0e1) !important;
+    border-radius: 15rem !important;
+    box-shadow: 2px 6px 10px #0c0b0a ;
+    border: 2px white solid !important;
+    transition: 0.7s ease !important;
+
+}
+.btn-success:hover {
+    transform: scale(1.1) !important;
+}
+#footer {
+    position: absolute;
+    top: 125rem;
+    width: 100%;
+}
+@media only screen and (max-width:900px) {
+  .h1  {
+    font-size: large !important;
+    margin-left: -2rem;
+  }
+  .p1 {
+    font-size: large;
+    margin-left: -2rem;
+  }
+  .social {
+    position: absolute;
+    top: 18rem;
+    margin-left:-2rem ;
+    font-size: 90%;
+    
+  }
+  .m1 {
+    flex-direction:column-reverse ;
+    margin: 12px 0;
+    width: 10rem;
+    margin-left: 14rem;
+
+  }
+  .t1 {
+    margin-top: -5rem;
+    margin-left: -43rem;
+  }
+  .skills-content {
+    gap: 1px 130px;
+  }
+  .skills-box {
+    margin-top: -10rem;
+    margin-left:-21rem;
+    width: 5rem !important ;
+    height: 1rem !important;
+    
+}
+.fa-8x {
+    margin-left: -0.8rem;
+    margin-top: -2.5rem;
+    font-size: 5rem !important;
+}
+.skills-title {
+  display: none;
+}
+
+.t2 {
+    margin-top: -10rem;
+    margin-left: -42rem;
+}
+.s2 {
+    margin-top: -10rem;
+    margin-left: -51rem;
+    font-size: large;
+}
+.m2 {
+    margin-top: -12rem;
+    width: 13rem;
+    margin-left: -39rem;
+}
+.btn-success {
+    margin-left: -35rem;
+    margin-top: -15rem !important;
+}
+body {
+    width: 5% !important;
+    
+}
+.nav-link {
+    border: none;
+}
+.home-section {
+   width: 16rem;
+ 
+}
+
+
+  
+}
